@@ -1,6 +1,15 @@
 # Recetas al azar
+
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="img/1.png"></a></p>
+
+<p align="center">
+<a href=""><img src="https://img.shields.io/badge/portfolio-web-blueviolet?style=flat&link=https://cv.l5enio.com/" alt="Portfolio Badge"></a>
+<a href=""><img src="https://komarev.com/ghpvc/?username=soufian3raki&color=blueviolet" alt="Profile views"></a>
+<a href=""><img src="https://img.shields.io/badge/license-MIT-blueviolet" alt="Portfolio Badge"></a>
+</p>
+
 Para ello he optado por utilizar la API pública de [TheMealDB](https://www.themealdb.com/) con el fin de obtener algunas comidas al azar pulsando un botón. ¡Algo sencillo!
-## El HTML
+### El HTML
 ```html
 <div class="home">
     <div id="home">
@@ -23,7 +32,7 @@ Tenemos un poco de texto, pero las dos partes más importantes son:
 Vamos a utilizar el ``button`` para hacer una solicitud a la API que enviará de vuelta algunos datos que vamos a poner en el div ``#meal`` que actúa como un contenedor - en este caso.
 
 Por lo general, después de que el HTML que voy en el CSS, pero no tenemos todavía todo el marcado, ya que se rellenará en la sección de JavaScript, así que eso es lo que vamos a hacer a continuación.
-## El JavaScript
+### El JavaScript
 Como se mencionó anteriormente, necesitamos el botón y ese div contenedor:
 ```js
 const get_meal_btn = document.getElementById('get_meal');
@@ -203,7 +212,7 @@ Y, por último, establecemos todo este ``newInnerHTML`` para que sea el ``innerH
 
 Todo este proceso se repetirá cada vez que pulsemos el botón de Obtener ``Comida``.
 
-## El SCSS
+### El SCSS
 La última parte es darle un poco de estilo.
 
 Para el **SCSS** quería usar algo nuevo así que probé la librería ``SkeletonCSS``. Es útil si tienes un proyecto pequeño y no quieres agobiarte con todas esas clases ya que sólo tiene un par de ellas que se encargan de algunos estilos básicos (el botón por ejemplo) y la parte responsive.
@@ -323,3 +332,4 @@ li {
 Para el tema de fuente pensé que lo mejor es ponerlo como escretu a mano, por eso he utelezado ``Sue Ellen Francisco`` y ``Shadows Into Light``.
 
 Puedes notar que el SCSS es bastante simple. La única parte que vale la pena mencionar es la declaración CSS ``.videoWrapper``. Esto asegura que la incrustación de YouTube sea responsiva.
+
