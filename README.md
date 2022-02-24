@@ -100,11 +100,11 @@ Los datos son algo así:
 ```
 Básicamente obtenemos de vuelta un array de ``comidas``, pero con un solo elemento en él - el generado aleatoriamente. Y este elemento tiene todos los datos que queremos mostrar en nuestra pequeña aplicación. Cosas como:
 
-- nombre de la comida (bajo ``strMeal``)
-- caterogy de la comida (bajo ``strCategory``)
-- imagen de la comida (en ``strMealThumb``)
-- un vídeo de youtube con la receta (bajo ``strYoutube``)
-- los ingredientes y las medidas (bajo ``strIngredientsX`` y ``strMeasureX`` - X representando el enésimo ingrediente y su medida) - esto es un poco incómodo ya que aquí esperaría tener un array con esta información, pero optan por añadirlo como object props. En el pozo ... Lo importante es tener en cuenta que hay un máximo de 20 ingredientes / medidas, aunque no son todos rellenados - algunos de ellos podrían estar vacíos por lo que tenemos que tener en cuenta.
+- nombre de la comida (``strMeal``)
+- caterogy de la comida (``strCategory``)
+- imagen de la comida (``strMealThumb``)
+- un vídeo de youtube con la receta (``strYoutube``)
+- los ingredientes y las medidas (``strIngredientsX`` y ``strMeasureX`` - X representando el enésimo ingrediente y su medida) - esto es un poco incómodo ya que aquí esperaría tener un array con esta información, pero optan por añadirlo como object props. En el pozo ... Lo importante es tener en cuenta que hay un máximo de 20 ingredientes / medidas, aunque no son todos rellenados - algunos de ellos podrían estar vacíos por lo que tenemos que tener en cuenta.
 
 Ahora que tenemos el botón vamos a añadir un escuchador de eventos para el evento ``clic`` y dentro vamos a hacer una petición a la API:
 ```js
