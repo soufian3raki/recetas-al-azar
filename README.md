@@ -3,9 +3,9 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="img/1.png"></a></p>
 
 <p align="center">
-<a href=""><img src="https://img.shields.io/badge/portfolio-web-blueviolet?style=flat&link=https://cv.l5enio.com/" alt="Portfolio Badge"></a>
-<a href=""><img src="https://komarev.com/ghpvc/?username=soufian3raki&color=blueviolet" alt="Profile views"></a>
-<a href=""><img src="https://img.shields.io/badge/license-MIT-blueviolet" alt="Portfolio Badge"></a>
+<a href="https://cv.l5enio.com/"><img src="https://img.shields.io/badge/portfolio-web-blueviolet?style=flat&link=https://cv.l5enio.com/" alt="Portfolio Badge"></a>
+<a href="https://cv.l5enio.com/"><img src="https://komarev.com/ghpvc/?username=soufian3raki&color=blueviolet" alt="Profile views"></a>
+<a href="https://cv.l5enio.com/"><img src="https://img.shields.io/badge/license-MIT-blueviolet" alt="Portfolio Badge"></a>
 </p>
 
 Para ello he optado por utilizar la API pública de [TheMealDB](https://www.themealdb.com/) con el fin de obtener algunas comidas al azar pulsando un botón. ¡Algo sencillo!
